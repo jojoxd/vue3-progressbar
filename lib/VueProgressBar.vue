@@ -20,7 +20,7 @@
         classes.push({ failed: progress.failed.value });
 
         return classes;
-      })
+      });
 
       const style = computed(() => {
         const style: any = {};
